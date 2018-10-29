@@ -243,70 +243,70 @@ while 1:
      if ccbox("Do you want to continue?",""):
         pass
      else:
-        break 
-     msg=""                                                        #Confirmation is asked whether to exit shopping
-     title="Your bill is"
-     msgbox(msg=str(a2),title) 
-     i=0                                                                                    #Billing to the above selected commodities
-     sum=0
-     for i in l:
+        break
+    i=0                                                                                    #Billing to the above selected commodities
+    sum=0
+    for i in l:
        sum+=i
        a2=sum
     
-     msgbox(msg="We have a surprise for you!!",title="SURPRISE")
+    msgbox(msg="We have a surprise for you!!",title="SURPRISE")
  
     if ccbox("Would you like to participate in a quiz?","*DISCOUNT ALERT*"):
         msgbox(msg="The following quiz will give you an opprtunity of grab exciting discounts*",title="Quiz")
-      y=[]
-      a1=0
-      msg1="Who is the speaker of RajyaSabha?"
-      title1=""
-      choice1=("Sumitra Mahajan","PJ Kurien","Narendra Modi","V Naidu")
-      buttonbox(msg1,title1,choices=choice1)
-      if choices=="Sumitra Mahajan":
+    y=[]
+    a1=0
+    msg1="Who is the speaker of RajyaSabha?"
+    title1=""
+    choice1=("Sumitra Mahajan","PJ Kurien","Narendra Modi","V Naidu")
+    buttonbox(msg1,title1,choices=choice1)
+    if choices=="Sumitra Mahajan":
          a1+=1
          y.append(a1)
-      else: 
+    else: 
            pass
-      msg2="With which country has the Rafael deal been signed?"
-      title2=""
-      choice2=("France","Italy","Russia","Germany")
-      buttonbox(msg1,title1,choices=choice2)
-      if choices=="France":
+    msg2="With which country has the Rafael deal been signed?"
+    title2=""
+    choice2=("France","Italy","Russia","Germany")
+    buttonbox(msg1,title1,choices=choice2)
+    if choices=="France":
         a1+=1
         y.append(a1)
-      else: 
+    else: 
+         pass
+    msg3="Which movie won the Academy Award in 2018?"
+    title3=""
+    choice3=("Dunkirk","The Shape of Water","La La Land","The Silent Child")
+    buttonbox(msg1,title1,choices=choice3)
+    if choices=="The Shape of Water":
+        a1+=1
+        y.append(a1)
+    else: 
           pass
-      msg3="Which movie won the Academy Award in 2018?"
-      title3=""
-      choice3=("Dunkirk","The Shape of Water","La La Land","The Silent Child")
-      buttonbox(msg1,title1,choices=choice3)
-      if choices=="The Shape of Water":
+    msg5="Who was the first person to reach North Pole?"
+    title5=""
+    choice5=("Charles Hilary","Johan Don","Robert Peary","Rajesh Sharma")
+    buttonbox(msg1,title1,choices=choice5)
+    if choices=="Robert Peary":
         a1+=1
         y.append(a1)
-      else: 
-          pass
-      msg5="Who was the first person to reach North Pole?"
-      title5=""
-      choice5=("Charles Hilary","Johan Don","Robert Peary","Rajesh Sharma")
-      buttonbox(msg1,title1,choices=choice5)
-      if choices=="":
-        a1+=1
-        y.append(a1)
-      else: 
+    else: 
            pass
     z1=len(y)
     if z1==5:
-       msgbox(msg="Congratulations!! You have got all answers Correct!! You get a discount of 5% on your total purchase",title="")
-       a2=a2-(a2*0.05)
+        msgbox(msg="Congratulations!! You have got all answers Correct!! You get a discount of 5% on your total purchase",title="")
+        a3=(a3*0.05)
     else:
-       sys.exit()
-
-
-    msgbox(str(a2),"Total Cost","Result")                                                 #Total cost is shown
+         sys.exit()
+    
+    
+    
+    
+    A=a2-a3
+    msgbox(A,"Total Cost","Result")                                                 #Total cost is shown
     msg="Do you want to shop again?"                                                       #Conformation for exit
     title="Please Confirm"
     if ccbox(msg,title):
-         pass
+      pass
     else:
        sys.exit() 
