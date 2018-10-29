@@ -77,48 +77,48 @@ while 1:
           if choice4=="ParleG":
                if choice3=="Fastship":
                 f=25
-             elif choice3=="ekart":
+               elif choice3=="ekart":
                   f=19
-             else:
+               else:
                   f=15
-             msgbox(msg=str(f),title="Price of ParleG")
-             l.append(f)
+               msgbox(msg=str(f),title="Price of ParleG")
+               l.append(f)
           elif choice4=="Hide and Seek":
                if choice3=="Fastship":
                  g=25
-             elif choice3=="ekart":
+               elif choice3=="ekart":
                   g=30
-             else:
+               else:
                   g=20
-             msgbox(msg=str(g),title="price of Hide and Seek")
-             l.append(g)
+               msgbox(msg=str(g),title="price of Hide and Seek")
+               l.append(g)
           elif choice4=="Bourbon":
                if choice3=="Fastship":
                   h=30
-             elif choice3=="ekart":
+               elif choice3=="ekart":
                   h=40
-             else:
+               else:
                   h=29
-             msgbox(msg=str(h),title="price of Bourbon")
-             l.append(h) 
+               msgbox(msg=str(h),title="price of Bourbon")
+               l.append(h) 
           elif choice4=="Monaco":
                if choice3=="Fastship":
                 i=25
-             elif choice3=="ekart":
+               elif choice3=="ekart":
                   i=20
-             else:
+               else:
                   i=19
-             msgbox(msg=str(i),title="price of Monaco")
-             l.append(i) 
+               msgbox(msg=str(i),title="price of Monaco")
+               l.append(i) 
           else:
                if choice3=="Fastship":
                 j=5
-             elif choice3=="ekart":
+               elif choice3=="ekart":
                   j=10
-             else:
+               else:
                   j=8
-             msgbox(msg=str(j),title="price of Marie")
-             l.append(j) 
+               msgbox(msg=str(j),title="price of Marie")
+               l.append(j) 
  
 
 
@@ -135,8 +135,8 @@ while 1:
              else:
                   k=48
            
-           msgbox(msg=str(k),title="Price of Lux")
-           l.append(k)
+             msgbox(msg=str(k),title="Price of Lux")
+             l.append(k)
          elif choice6=="Dettol":
              if choice3=="Fastship":
                 lo=60
@@ -160,13 +160,13 @@ while 1:
          elif choice6=="Pears":
                if choice3=="Fastship":
                 n=49
-             elif choice3=="ekart":
+               elif choice3=="ekart":
                   n=59
-             else:
+               else:
                   n=60
              
-             msgbox(msg=str(n),title="price of Pears")
-             l.append(n) 
+               msgbox(msg=str(n),title="price of Pears")
+               l.append(n) 
          else:
              if choice3=="Fastship":
                 o=80
@@ -191,8 +191,8 @@ while 1:
              else:
                   p=1999
            
-           msgbox(msg=str(p),title="Price of US POLO")
-           l.append(p)
+             msgbox(msg=str(p),title="Price of US POLO")
+             l.append(p)
          elif choice6=="Cottonking":
              if choice3=="Fastship":
                 q=799
