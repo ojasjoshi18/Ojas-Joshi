@@ -299,10 +299,19 @@ while 1:
    else:
          sys.exit()
     
+    msg="Enter your first name"
+    title="Lucky Draw"
+    fieldNames=["Name"]
+    fieldValues=[]
+    fieldValues=enterbox(msg,title,fieldNames)
+    if fieldValues==Ojas:
+      msgbox("Congratulations you are the lucky winner. You get an additional discount of 5% on your total purchase","WINNER!!")
+      a4=a2*0.05
+    else:
+      msgbox("Sorry you are not the lucky winner","HardLuck!")
     
     
-    
-   A=a2-a3
+   A=a2-(a3+a4)
    msgbox(A,"Total Cost","Result")                                                 #Total cost is shown
    msg="Do you want to shop again?"                                                       #Conformation for exit
    title="Please Confirm"
