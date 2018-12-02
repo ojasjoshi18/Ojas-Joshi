@@ -1,3 +1,7 @@
+#Name:Ojas Joshi
+#Division:M
+#Roll no:23
+#Gr no:11810839
 l=[]
 while 1:
     name=input('Enter your name: ')
